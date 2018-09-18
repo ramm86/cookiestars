@@ -7,12 +7,14 @@
 .primary-text-color    { color: #212121!important; }
 .secondary-text-color  { color: #757575!important; }
 .divider-color         { border-color: #FFFFFF!important; }
+.borde-color-primario  {border-color:#EC1C24!important}
 
 
 /* Menu */
 /* Links del menu */
-.activo{font-weight: bold!important;}
+.activo{font-weight:bold!important;}
 .menu-link{color:#FFFFFF!important;}
+.menu-link:hover{color:#FFC107!important;}
 /* Search */
 .boton-activo:hover{background: #FFFFFF!important;color:#EC1C24!important;}
 

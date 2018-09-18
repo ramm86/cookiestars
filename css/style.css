@@ -1,0 +1,9 @@
+/* Paleta de colores */
+.dark-primary-color    { background: #ec1c24!important; }
+.default-primary-color { background: #F44336!important; }
+.light-primary-color   { background: #FFCDD2!important; }
+.text-primary-color    { color: #FFFFFF!important; }
+.accent-color          { background: #FFC107!important; }
+.primary-text-color    { color: #212121!important; }
+.secondary-text-color  { color: #757575!important; }
+.divider-color         { border-color: #BDBDBD!important; }

@@ -1,9 +1,19 @@
 /* Paleta de colores */
-.dark-primary-color    { background: #ec1c24!important; }
+.dark-primary-color    { background: #EC1C24!important; }
 .default-primary-color { background: #F44336!important; }
 .light-primary-color   { background: #FFCDD2!important; }
 .text-primary-color    { color: #FFFFFF!important; }
 .accent-color          { background: #FFC107!important; }
 .primary-text-color    { color: #212121!important; }
 .secondary-text-color  { color: #757575!important; }
-.divider-color         { border-color: #BDBDBD!important; }
+.divider-color         { border-color: #FFFFFF!important; }
+
+
+/* Menu */
+/* Links del menu */
+.activo{font-weight: bold!important;}
+.menu-link{color:#FFFFFF!important;}
+/* Search */
+.boton-activo:hover{background: #FFFFFF!important;color:#EC1C24!important;}
+
+

@@ -19,24 +19,24 @@
     <link href="css/style.css" rel="stylesheet">
 
   </head>
-  <body>
+  <body id="tope-pagina">
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark dark-primary-color">
-        <a class="navbar-brand" href="#"><img src="img/logo-cookiestars.png" class="img-fluid" alt="Responsive image"></a>
+        <a class="navbar-brand" href="#tope-pagina"><img src="img/logo-cookiestars.png" class="img-fluid" alt="Responsive image"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active activo">
-              <a class="nav-link menu-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link menu-link" href="#tope-pagina">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu-link" href="#">¿Cómo comprar?</a>
+              <a class="nav-link menu-link" href="#como-comprar">¿Cómo comprar?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu-link" href="#">The Cookies</a>
+              <a class="nav-link menu-link" href="#the-cookies">The Cookies</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link menu-link" href="#">Nosotras</a>
@@ -46,49 +46,51 @@
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 divider-color text-primary-color boton-activo" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="text" placeholder="Busca tu galleta favorita" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 divider-color text-primary-color boton-activo" type="submit">Buscar</button>
           </form>
         </div>
       </nav>
     </header>
 
     <main role="main">
-
+<!-- Carrusel -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+        
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide" src="img/cookiestars-slider1.jpg" alt="First slide">
+          <div class="carousel-item active" id="first-slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Las mejores galletas a solo un click.</h1>
+                <h1>Las mejores galletas, a sólo un click.</h1>
                 <p>En nuestra tienda online podrás comprar desde la comodidad de tu casa u oficina, las más deliciosas galletas de la ciudad.</p>
-                <p><a class="btn btn-lg btn-primary dark-primary-color borde-color-primario" href="#" role="button">Sign up today</a></p>
+                <p><a class="btn btn-lg btn-primary dark-primary-color borde-color-primario" href="#the-cookies" role="button">Nuestras Cookie Stars</a></p>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="carousel-item" id="second-slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                <h1>Horneadas con amor</h1>
+                <p>Horneadas artesanalmente, con el mayor de los cuidados, pasión, dedicación y amor.</p>
+                <p><a class="btn btn-lg btn-primary dark-primary-color borde-color-primario" href="#" role="button">Nosotras</a></p>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="carousel-item" id="third-slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <h1>Con los mejores ingredientes</h1>
+                <p>Las mejores galletas, sólo pueden lograrse utilizando los mejores ingredientes, es por eso que sólo usamos lo mejor para hornear nuestras galletas</p>
+                <p><a class="btn btn-lg btn-primary dark-primary-color borde-color-primario" href="#the-cookies" role="button">Nuestras Cookie Stars</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="fourth-slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Desde la comodidad de tu casa, universidad u oficina</h1>
+                <p>Recibe con nuestro servicio delivery tus galletas recien horneadas.</p>
+                <p><a class="btn btn-lg btn-primary dark-primary-color borde-color-primario" href="#como-comprar" role="button">¿Cómo comprar?</a></p>
               </div>
             </div>
           </div>
@@ -103,33 +105,37 @@
         </a>
       </div>
 
-
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
+      <!-- Fin Carrusel -->
+      <div class="container marketing titulo-seccion" id="como-comprar">
+        <h1>¿Cómo comprar?</h1>
+      </div>
       <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+          <div class="col-lg-3 texto-centrado">
+            <img class="rounded-circle mb-20" src="img/escoje-tu-caja.jpg" alt="Generic placeholder image">
+            <h2>Escoje tu caja</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+          </div><!-- /.col-lg-3 -->
+          <div class="col-lg-3 texto-centrado">
+            <img class="rounded-circle mb-20" src="img/selecciona-galletas.jpg" alt="Generic placeholder image">
+            <h2>Selecciona tus galletas</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+          </div><!-- /.col-lg-3 -->
+          <div class="col-lg-3 texto-centrado">
+            <img class="rounded-circle mb-20" src="img/realiza-tu-pago.jpg" alt="Generic placeholder image">
+            <h2>Registra tu pago</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
+          </div><!-- /.col-lg-3 -->
+          <div class="col-lg-3 texto-centrado">
+            <img class="rounded-circle mb-20" src="img/disfruta-tu-galleta.jpg" alt="Generic placeholder image">
+            <h2>Disfruta tus galletas</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-3 -->
         </div><!-- /.row -->
 
 
@@ -137,7 +143,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette" id="the-cookies">
           <div class="col-md-7">
             <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -193,5 +199,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="js/holder.min.js"></script>
+
+    
   </body>
 </html>

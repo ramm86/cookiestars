@@ -8,14 +8,34 @@
 .secondary-text-color  { color: #757575!important; }
 .divider-color         { border-color: #FFFFFF!important; }
 .borde-color-primario  {border-color:#EC1C24!important}
+.dark-primary-color-dark{ background: #D31317!important;}
 
 
 /* Menu */
 /* Links del menu */
 .activo{font-weight:bold!important;}
-.menu-link{color:#FFFFFF!important;}
-.menu-link:hover{color:#FFC107!important;}
+.menu-link{color:#FFFFFF!important;font-size:1.2rem;}
+.menu-link:hover{color:#222222!important;}
 /* Search */
 .boton-activo:hover{background: #FFFFFF!important;color:#EC1C24!important;}
+
+/* Botones del slider */
+.btn-primary.dark-primary-color:hover{background: #D31317!important;}
+
+/* Secciones */
+.titulo-seccion {
+    text-align: center;
+    color:#EC1C24;
+    margin-bottom: 5%;
+}
+
+/* Columnas como comprar */
+.texto-centrado{
+    text-align: center;
+}
+
+.mb-20{
+    margin-bottom: 10%;
+}
 
 

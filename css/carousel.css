@@ -24,19 +24,36 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 38rem;
     background-color: #777;
   }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: auto;
-    filter:brightness(0.7);
+
+  #first-slide{
+    background-image: url("../img/cookiestars-slider1.jpg")!important;
+    background-position: center center!important;
+    background-size: cover!important;
   }
-  
-  
+
+  #second-slide{
+    background-image: url("../img/cookiestars-slider2.jpg")!important;
+    background-position: center center!important;
+    background-size: cover!important;
+  }
+
+  #third-slide{
+    background-image: url("../img/cookiestars-slider3.jpg")!important;
+    background-position: center center!important;
+    background-size: cover!important;
+  }
+
+  #fourth-slide{
+    background-image: url("../img/cookiestars-slider5.jpg")!important;
+    background-position: center center!important;
+    background-size: cover!important;
+  }
+  #fourth-slide .carousel-caption, #third-slide .carousel-caption {
+    color: #222222;
+}
   /* MARKETING CONTENT
   -------------------------------------------------- */
   

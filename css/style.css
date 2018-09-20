@@ -38,4 +38,25 @@
     margin-bottom: 10%;
 }
 
+.titulo222{
+    color: #222222;
+    
+}
 
+.frase-small{
+    font-size:34px;
+}
+
+.nosotras h2.featurette-heading {
+    margin-top: 4rem;
+}
+
+/* Footer */
+.footer-cs a {
+    color:#EC1C24; 
+}
+
+.footer-cs a:hover {
+    color:#222222;
+    text-decoration: none; 
+}
